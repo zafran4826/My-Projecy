@@ -2,7 +2,7 @@ import json
 from abc import ABC, abstractmethod
 import os
 
-path = "Zafran/Products.json"
+path = "Products.json"
 data = []
 
 if os.path.exists(path):
